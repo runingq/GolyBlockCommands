@@ -1,0 +1,11 @@
+name: GolyAntiCommands
+main: goly.anticommands.GolyAntiCommands
+version: 1.0
+commands:
+  anticommands:
+    description: Reload config
+    usage: /anticommands reload
+permissions:
+  golypvp.commands:
+    description: Permission to reload Plugin
+    default: op

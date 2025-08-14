@@ -1,0 +1,11 @@
+commands: # COMANDOS PARA BLOQUEAR
+  - /op
+  - /deop
+  - /pl
+authorized-nick: "rruning" # NICK QUE PUEDE EJECUTAR LOS COMANDOS
+webhook-url: "https://https://discord.com/api/webhooks/XXXXXXXXXXX" # WEBHOOK DE LOGS
+messages:
+  blocked-command: "&cNo puedes ejecutar ese comando" # MENSAJE DE BLOQUEO DE COMANDO
+  reloaded: "&aConfiguración recargada." # MENSAJE DE CONFIGURACION RECARGADA (/anticommands reload)
+  no-permission: "&cNo tienes permisos para ejecutar este comando." # MENSAJE DE QUE NO PODES EJECUTAR EL (/anticommands reload)
+blocktabcommands: true # BLOQUEAR LOS COMANDOS (AUTOCOMPLETAR) (DEJAR TRUE SI QUERES QUE NO SE AUTOCOMPLETEN)
